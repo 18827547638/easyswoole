@@ -19,6 +19,8 @@ class EasySwooleEvent implements Event
     public static function mainServerCreate(EventRegister $register)
     {
         // TODO: Implement mainServerCreate() method.
+        $config = new \EasySwoole\ORM\Db\Config(Config::getInstance()->getConf('MYSQL'));
+        DbManager::getInstance()->addConnection(new Connection($config));
     }
 
     public static function onRequest(Request $request, Response $response): bool
