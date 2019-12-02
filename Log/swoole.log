@@ -184,3 +184,5 @@
 [2019-12-02 12:55:32 $2564.0]	WARNING	swManager_check_exit_status: worker#9[pid=2575] abnormal exit, status=0, signal=1
 [2019-12-02 12:55:32 $2564.0]	WARNING	swManager_check_exit_status: worker#10[pid=2576] abnormal exit, status=0, signal=1
 [2019-12-02 12:55:32 $2564.0]	WARNING	swManager_check_exit_status: worker#11[pid=2577] abnormal exit, status=0, signal=1
+[2019-12-02 17:19:52 #2563.1]	INFO	Server is shutdown now
+[2019-12-02 17:45:22 #8757.1]	INFO	Server is shutdown now
