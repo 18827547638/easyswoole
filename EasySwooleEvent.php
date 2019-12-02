@@ -6,6 +6,8 @@ use EasySwoole\EasySwoole\Swoole\EventRegister;
 use EasySwoole\EasySwoole\AbstractInterface\Event;
 use EasySwoole\Http\Request;
 use EasySwoole\Http\Response;
+use EasySwoole\ORM\Db\Connection;
+use EasySwoole\ORM\DbManager;
 
 class EasySwooleEvent implements Event
 {
