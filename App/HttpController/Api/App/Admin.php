@@ -21,7 +21,7 @@ class Admin extends CommonBase
         $page = $param['page']??1;
         $limit = $param['limit']??20;
         $model = new AdminModel();
-        $data = $model->getAll($page, 1,$param['keyword']??null, $limit);
+        $data = $model->getAll($page, $param['keyword']??null, $limit);
         $this->writeJson(Status::CODE_OK, $data, 'success');
     }
 }
