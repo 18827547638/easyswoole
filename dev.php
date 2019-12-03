@@ -14,7 +14,7 @@ return [
         ],
         'TASK'=>[
             'workerNum'=>4,
-            'maxRunningNum'=>128,
+            'maxRunningNum'=>1000,
             'timeout'=>15
         ]
     ],
