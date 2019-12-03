@@ -9,7 +9,7 @@
 namespace App\model\admin;
 use EasySwoole\ORM\AbstractModel;
 
-class AdminModel
+class AdminModel extends AbstractModel
 {
     protected $tableName = 'user';
 
