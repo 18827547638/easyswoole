@@ -29,7 +29,7 @@ return [
         'charset'       => 'utf8mb4',
         'password'      => 'A787jzrpk3XKxTpd',
         'database'      => 'shop.tmp.test',
-        'POOL_MAX_NUM'  => '200',
+        'POOL_MAX_NUM'  => '600',
         'POOL_TIME_OUT' => '0.1',
     ],
     /*################ REDIS CONFIG ##################*/
