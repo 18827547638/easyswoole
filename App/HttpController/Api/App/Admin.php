@@ -29,9 +29,7 @@ class Admin extends CommonBase
         $b = go(function(){
             $redis = \EasySwoole\RedisPool\Redis::defer('redis');
             $redis->set('a', 1);
-            $a = $redis->get('a');
-             var_dump('var_dump'.$a);
-             $this->writeJson(200,'writeJson:'.$a);
+            return $redis->get('a');
         });
         var_dump('var_dump_b'.$b);
         $this->writeJson(200,'writeJson_b:'.$b);
