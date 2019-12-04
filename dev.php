@@ -8,7 +8,7 @@ return [
         'SOCK_TYPE' => SWOOLE_TCP,
         'RUN_MODEL' => SWOOLE_PROCESS,
         'SETTING' => [
-            'worker_num' => 8,
+            'worker_num' => 2,
             'max_request'      => 5000,
             'task_max_request' => 1000,
             'reload_async' => true,
@@ -24,13 +24,13 @@ return [
     'LOG_DIR' => null,
 
     'MYSQL' => [
-        'host'          => '47.244.109.235',
+        'host'          => '127.0.0.1',
         'port'          => '3306',
-        'user'          => 'gl_lmsggdc_com',
+        'user'          => 'root',
         'timeout'       => '5',
         'charset'       => 'utf8mb4',
-        'password'      => 'A787jzrpk3XKxTpd',
-        'database'      => 'shop.tmp.test',
+        'password'      => '8ik,9ol.',
+        'database'      => 'local_lmsggdc_com',
         'POOL_MAX_NUM'  => '600',
         'POOL_TIME_OUT' => '0.1',
     ],
