@@ -23,4 +23,17 @@ class Admin extends CommonBase
         $data = AdminModel::getInstance()->getAll($page, $param['keyword']??null, $limit);
         $this->writeJson(Status::CODE_OK, $data, 'success');
     }
+
+    public function redisTest()
+    {
+        $b = go(function(){
+            $redis = \EasySwoole\RedisPool\Redis::defer('redis');
+            $redis->set('a', 1);
+            $a = $redis->get('a');
+             var_dump('var_dump'.$a);
+             $this->writeJson('writeJson:'.$a);
+        });
+        var_dump('var_dump_b'.$b);
+        $this->writeJson('writeJson_b:'.$b);
+    }
 }

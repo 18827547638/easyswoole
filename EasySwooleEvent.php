@@ -25,7 +25,10 @@ class EasySwooleEvent implements Event
         $config = new \EasySwoole\ORM\Db\Config(Config::getInstance()->getConf('MYSQL'));
         DbManager::getInstance()->addConnection(new Connection($config));
         //Redis
-
+        $redisPoolConfig  = \EasySwoole\RedisPool\Redis::getInstance()->register('redis',new \EasySwoole\Redis\Config\RedisConfig());
+        //配置连接池连接数
+        $redisPoolConfig->setMinObjectNum(5);
+        $redisPoolConfig->setMaxObjectNum(20);
     }
 
     public static function onRequest(Request $request, Response $response): bool
