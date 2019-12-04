@@ -31,9 +31,9 @@ class Admin extends CommonBase
             $redis->set('a', 1);
             $a = $redis->get('a');
              var_dump('var_dump'.$a);
-             $this->writeJson('writeJson:'.$a);
+             $this->writeJson(200,'writeJson:'.$a);
         });
         var_dump('var_dump_b'.$b);
-        $this->writeJson('writeJson_b:'.$b);
+        $this->writeJson(200,'writeJson_b:'.$b);
     }
 }
