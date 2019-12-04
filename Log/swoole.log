@@ -186,3 +186,783 @@
 [2019-12-02 12:55:32 $2564.0]	WARNING	swManager_check_exit_status: worker#11[pid=2577] abnormal exit, status=0, signal=1
 [2019-12-02 17:19:52 #2563.1]	INFO	Server is shutdown now
 [2019-12-02 17:45:22 #8757.1]	INFO	Server is shutdown now
+[2019-12-03 09:25:12 $9143.0]	INFO	Server is reloading all workers now
+[2019-12-03 09:25:24 #9142.1]	INFO	Server is shutdown now
+[41m[2019-12-03 09:25:42][DEBUG][ERROR] : [Call to undefined method App\model\admin\AdminModel::getInstance() at file:/usr/share/nginx/html/test/easy/App/HttpController/Index.php line:15][0m
+[2019-12-03 09:28:38 $21960.0]	INFO	Server is reloading all workers now
+[2019-12-03 09:45:05 $21960.0]	INFO	Server is reloading all workers now
+[2019-12-03 09:46:01 *22313.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=547] does not exists
+[2019-12-03 09:57:09 #21959.1]	INFO	Server is shutdown now
+[2019-12-03 10:01:29 *22918.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=3678] does not exists
+[2019-12-03 10:03:39 $22911.0]	INFO	Server is reloading all workers now
+[2019-12-03 10:05:46 #22910.1]	INFO	Server is shutdown now
+[2019-12-03 11:04:43 $23144.0]	INFO	Server is reloading all workers now
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 11:16:43][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 11:16:43 *24818.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 11:16:43 $23144.0]	WARNING	swManager_check_exit_status: worker#7[pid=24818] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 11:16:43][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 11:16:43 *24813.2]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 11:16:43 $23144.0]	WARNING	swManager_check_exit_status: worker#2[pid=24813] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 11:16:43][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 11:16:43 *24812.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 11:16:43 $23144.0]	WARNING	swManager_check_exit_status: worker#1[pid=24812] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 11:16:47][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 11:16:47 *24815.4]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 11:16:47 $23144.0]	WARNING	swManager_check_exit_status: worker#4[pid=24815] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 11:16:48][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 11:16:48 *24814.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 11:16:48 $23144.0]	WARNING	swManager_check_exit_status: worker#3[pid=24814] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 11:16:48][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 11:16:48 *24816.5]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 11:16:49 $23144.0]	WARNING	swManager_check_exit_status: worker#5[pid=24816] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 11:16:52][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 11:16:52 *24811.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 11:16:52 $23144.0]	WARNING	swManager_check_exit_status: worker#0[pid=24811] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 11:17:17][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 11:17:17 *24817.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 11:17:17 $23144.0]	WARNING	swManager_check_exit_status: worker#6[pid=24817] abnormal exit, status=255, signal=0
+[2019-12-03 11:23:14 $23144.0]	INFO	Server is reloading all workers now
+[2019-12-03 11:25:42 $23144.0]	INFO	Server is reloading all workers now
+[2019-12-03 11:29:30 *25174.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=7179] does not exists
+[2019-12-03 11:29:30 *25172.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=7180] does not exists
+[2019-12-03 11:29:30 *25176.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=7181] does not exists
+[2019-12-03 11:29:30 *25175.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=7172] does not exists
+[2019-12-03 11:29:30 *25173.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=7173] does not exists
+[2019-12-03 11:29:30 *25178.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=7182] does not exists
+[2019-12-03 11:29:31 *25177.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=7129] does not exists
+[2019-12-03 12:01:37 #23143.1]	INFO	Server is shutdown now
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 15:12:28][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 15:12:28 *29570.5]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 15:12:28 $29563.0]	WARNING	swManager_check_exit_status: worker#5[pid=29570] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 15:12:28][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 15:12:28 *29572.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 15:12:28 $29563.0]	WARNING	swManager_check_exit_status: worker#7[pid=29572] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 15:12:28][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 15:12:28 *29568.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 15:12:28 $29563.0]	WARNING	swManager_check_exit_status: worker#3[pid=29568] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 15:14:58][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 15:14:58 *29571.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 15:14:58 $29563.0]	WARNING	swManager_check_exit_status: worker#6[pid=29571] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 15:14:58][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 15:14:58 *29566.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 15:14:58 $29563.0]	WARNING	swManager_check_exit_status: worker#1[pid=29566] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 15:17:28][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 15:17:28 *29569.4]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 15:17:28 $29563.0]	WARNING	swManager_check_exit_status: worker#4[pid=29569] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 15:20:38][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 15:20:38 *29565.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 15:20:38 $29563.0]	WARNING	swManager_check_exit_status: worker#0[pid=29565] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 15:23:29][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 15:23:29 *29567.2]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 15:23:29 $29563.0]	WARNING	swManager_check_exit_status: worker#2[pid=29567] abnormal exit, status=255, signal=0
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-03 16:14:31][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-03 16:14:31 *29946.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-03 16:14:31 $29563.0]	WARNING	swManager_check_exit_status: worker#0[pid=29946] abnormal exit, status=255, signal=0
+[2019-12-03 17:00:12 *29865.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10592] does not exists
+[2019-12-03 17:00:12 *29835.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10593] does not exists
+[2019-12-03 17:00:12 *29829.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10560] does not exists
+[2019-12-03 17:00:13 *29898.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10595] does not exists
+[2019-12-03 17:00:13 *30664.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10594] does not exists
+[2019-12-03 17:00:13 *29980.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10396] does not exists
+[2019-12-03 17:00:13 *29980.2]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10589] does not exists
+[2019-12-03 17:00:13 *29835.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10269] does not exists
+[2019-12-03 17:00:13 *29829.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10389] does not exists
+[2019-12-03 17:00:13 *30664.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10345] does not exists
+[2019-12-03 17:00:13 *29830.7]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10570] does not exists
+[2019-12-03 17:00:13 *29898.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10530] does not exists
+[2019-12-03 17:00:13 *29865.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10556] does not exists
+[2019-12-03 17:00:13 *30664.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10400] does not exists
+[2019-12-03 17:00:13 *29898.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10485] does not exists
+[2019-12-03 17:00:13 *29829.5]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10552] does not exists
+[2019-12-03 17:00:13 *29865.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10578] does not exists
+[2019-12-03 17:00:13 *29864.6]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10352] does not exists
+[2019-12-03 17:00:13 *30664.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10577] does not exists
+[2019-12-03 17:00:13 *29898.4]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10567] does not exists
+[2019-12-03 17:00:13 *29835.3]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=10339] does not exists
+[2019-12-03 17:05:16 #29562.1]	INFO	Server is shutdown now
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=228] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=229] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=168] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=189] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=175] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=190] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=177] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=169] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=179] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=173] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=193] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=192] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=182] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=199] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=166] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=200] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=176] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=184] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=194] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=172] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=196] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=198] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=174] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=178] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=202] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=186] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=204] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=180] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=170] does not exists
+[2019-12-04 14:36:21 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=188] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=183] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=181] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=201] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=187] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=185] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=197] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=171] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=203] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=195] does not exists
+[2019-12-04 14:36:21 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=191] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=280] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=271] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=276] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=267] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=278] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=273] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=274] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=269] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=265] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=282] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=283] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=279] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=272] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=275] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=277] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=281] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=292] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=286] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=293] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=291] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=285] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=289] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=290] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=287] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=288] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=284] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=300] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=298] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=302] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=294] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=296] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=304] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=310] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=306] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=308] does not exists
+[2019-12-04 14:36:22 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=312] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=299] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=305] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=301] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=303] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=297] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=295] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=311] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=309] does not exists
+[2019-12-04 14:36:22 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=307] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=313] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=314] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=315] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=316] does not exists
+[2019-12-04 14:36:23 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=319] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=317] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=318] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=320] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=225] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=227] does not exists
+[2019-12-04 14:36:23 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=232] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=243] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=247] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=241] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=231] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=233] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=245] does not exists
+[2019-12-04 14:36:23 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=230] does not exists
+[2019-12-04 14:36:23 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=248] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=328] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=234] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=266] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=258] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=262] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=268] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=237] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=257] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=251] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=246] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=260] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=239] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=236] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=252] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=240] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=264] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=238] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=235] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=254] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=261] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=263] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=270] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=244] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=255] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=256] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=259] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=253] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=249] does not exists
+[2019-12-04 14:36:24 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=250] does not exists
+[2019-12-04 14:36:24 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=242] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=321] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=329] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=322] does not exists
+[2019-12-04 14:36:25 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=325] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=323] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=332] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=333] does not exists
+[2019-12-04 14:36:25 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=327] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=326] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=324] does not exists
+[2019-12-04 14:36:25 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=334] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=331] does not exists
+[2019-12-04 14:36:26 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=338] does not exists
+[2019-12-04 14:36:26 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=344] does not exists
+[2019-12-04 14:36:26 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=342] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=343] does not exists
+[2019-12-04 14:36:26 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=337] does not exists
+[2019-12-04 14:36:26 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=349] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=340] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=330] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=341] does not exists
+[2019-12-04 14:36:26 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=347] does not exists
+[2019-12-04 14:36:26 *16972.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=350] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=336] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=345] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=346] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=335] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=351] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=339] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=348] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=352] does not exists
+[2019-12-04 14:36:26 *16973.1]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=353] does not exists
+[2019-12-04 14:47:10 #16969.1]	INFO	Server is shutdown now
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+PHP Fatal error:  Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+
+Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[41m[2019-12-04 16:20:49][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[41m[2019-12-04 16:20:49][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22][0m
+[2019-12-04 16:20:49 *21240.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-04 16:20:49 *21220.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php on line 22
+[2019-12-04 16:20:57 $21147.0]	WARNING	swManager_check_exit_status: worker#1[pid=21220] abnormal exit, status=255, signal=0
+[2019-12-04 16:20:57 $21147.0]	WARNING	swManager_check_exit_status: worker#0[pid=21240] abnormal exit, status=255, signal=0
