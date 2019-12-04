@@ -6,3 +6,137 @@ Stack trace:
 #3 /usr/share/nginx/html/test/easy/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
 #4 /usr/share/nginx/html/test/easy/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
 #5 /usr/share/nginx/h at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2019-12-03 09:25:42][DEBUG][ERROR] : [Call to undefined method App\model\admin\AdminModel::getInstance() at file:/usr/share/nginx/html/test/easy/App/HttpController/Index.php line:15]
+[2019-12-03 11:16:43][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 11:16:43][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 11:16:43][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 11:16:47][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 11:16:48][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 11:16:48][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 11:16:52][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 11:17:17][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 15:12:28][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 15:12:28][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 15:12:28][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 15:14:58][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 15:14:58][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 15:17:28][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 15:20:38][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 15:23:29][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-03 16:14:31][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-04 16:20:49][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
+[2019-12-04 16:20:49][DEBUG][ERROR] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Connection timed out in /usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php:22
+Stack trace:
+#0 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(271): EasySwoole\ORM\Db\Pool->createObject()
+#1 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(229): EasySwoole\Pool\AbstractPool->initObject()
+#2 /usr/share/nginx/html/test/easy/vendor/easyswoole/pool/src/AbstractPool.php(215): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/usr/share/nginx/html/test/easy/vendor/easyswoole/orm/src/Db/Pool.php line:22]
