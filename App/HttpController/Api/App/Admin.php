@@ -20,8 +20,7 @@ class Admin extends CommonBase
         $param = $this->request()->getRequestParam();
         $page = $param['page']??1;
         $limit = $param['limit']??20;
-        $model = new AdminModel();
-        $data = $model->getAll($page, $param['keyword']??null, $limit);
+        $data = AdminModel::getInstance()->getAll($page, $param['keyword']??null, $limit);
         $this->writeJson(Status::CODE_OK, $data, 'success');
     }
 }

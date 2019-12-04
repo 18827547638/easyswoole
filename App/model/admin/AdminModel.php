@@ -7,10 +7,13 @@
  */
 
 namespace App\model\admin;
+use EasySwoole\Component\Singleton;
 use EasySwoole\ORM\AbstractModel;
 
 class AdminModel extends AbstractModel
 {
+    use Singleton;
+
     protected $tableName = 'user';
 
     protected $primaryKey = 'id';
