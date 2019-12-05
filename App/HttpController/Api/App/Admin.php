@@ -26,12 +26,12 @@ class Admin extends CommonBase
 
     public function redisTest()
     {
-        $b = go(function(){
-            $redis = \EasySwoole\RedisPool\Redis::defer('redis');
-            $redis->set('a', 1);
-            return $redis->get('a');
+        go(function(){
+            $this->_test();
         });
-        var_dump('var_dump_b'.$b);
-        $this->writeJson(200,'writeJson_b:'.$b);
+    }
+
+    private function _test(){
+        $this->writeJson(200,'writeJson_Test:_test');
     }
 }
